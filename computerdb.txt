@@ -1,0 +1,71 @@
+% Computer Accessories
+
+accessory(1, "Intel Core i7", cpu, intel, "2022-01-15").
+accessory(2, "AMD Ryzen 5", cpu, amd, "2021-11-30").
+accessory(3, "ASUS ROG Strix B550", motherboard, asus, "2022-02-28").
+accessory(4, "Gigabyte Aorus DDR4 RAM", ram, gigabyte, "2022-03-10").
+accessory(5, "Samsung 1TB NVMe SSD", storage, samsung, "2022-04-05").
+accessory(6, "NVIDIA GeForce RTX 3070", graphics_card, nvidia, "2022-02-10").
+accessory(7, "Dell 24-inch Monitor", display, dell, "2022-05-20").
+accessory(8, "Logitech G Pro Mechanical Keyboard", keyboard, logitech, "2022-03-25").
+accessory(9, "Microsoft Wireless Mouse", mouse, microsoft, "2022-01-05").
+accessory(10, "Corsair Vengeance RGB Pro", ram, corsair, "2022-09-05").
+accessory(11, "Samsung 2TB SATA SSD", storage, samsung, "2022-10-20").
+accessory(12, "Logitech MX Master 3", mouse, logitech, "2022-11-15").
+accessory(13, "Intel Core i5", cpu, intel, "2022-06-18").
+accessory(14, "AMD Radeon RX 6900 XT", graphics_card, amd, "2022-07-02").
+accessory(15, "ASUS Prime X570", motherboard, asus, "2022-08-10").
+
+% Connection Interfaces
+
+connection_interface(1, "PCIe").
+connection_interface(2, "SATA").
+connection_interface(3, "USB").
+connection_interface(4, "HDMI").
+
+% Connection Slots
+
+connection_slot(1, "CPU Socket").
+connection_slot(2, "RAM Slot").
+connection_slot(3, "M.2 Slot").
+connection_slot(4, "PCIe Slot").
+
+% Product Prices
+
+product(1, 350).
+product(2, 250).
+product(3, 200).
+product(4, 80).
+product(5, 150).
+product(6, 600).
+product(7, 200).
+product(8, 100).
+product(9, 50).
+product(10, 350).
+product(11, 250).
+product(12, 200).
+product(13, 80).
+product(14, 150).
+product(15, 600).
+
+% Compatibility
+
+compatibility(1, 3). 
+compatibility(1, 4). 
+compatibility(1, 5). 
+compatibility(2, 3). 
+compatibility(2, 4). 
+compatibility(2, 5). 
+compatibility(3, 4).
+compatibility(6, 3). 
+compatibility(6, 4). 
+compatibility(6, 5).
+compatibility(6, 13). 
+compatibility(6, 14). 
+compatibility(2, 15).
+compatibility(13, 15). 
+compatibility(12, 13). 
+compatibility(4, 11).
+compatibility(4, 12). 
+compatibility(9, 10). 
+compatibility(9, 14). 
